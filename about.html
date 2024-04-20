@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.CSS">
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            margin: 0;
+            background:#080E19 ;
+        }
+        span{
+            font-size: 20px;
+            font-weight: 700;
+            color: aliceblue;
+        }
+        p{
+            color: aliceblue;
+        }
+        .tiger{
+            
+            display: flex;
+        }
+        .ob{
+            height: 600px;
+            width: 400px;
+            box-shadow: 0px 0px 10px #6E43A8;
+            margin-top: 70px;
+            margin-left: 30px;
+            font-size: 23px;
+            border-radius: 20px;
+         }
+       ol{
+        color: aliceblue;
+        padding-left: 35px;
+        padding-right: 35px;
+       }
+       p{
+        padding-left: 20px;
+        padding-right: 20px;
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="tiger">
+        <div class="ob">
+            <h2 align="center" style="padding-top: 30px;">About</h2>
+            <p align="justify" class="jk">An Age Calculator is a tools used for calulating age of a person based his birthdate relative to current date.
+            An Age calculator is fast and efficient to calculate someone's age.<br><br>
+            This type of Tool can be used in many places like:</p>
+            <ol>
+                <li>HealthCare</li>
+                <li>Education</li>
+                <li>Theaters/Malls</li>
+                <li>Legal Matters</li>
+                <li>Online Services</li>
+            </ol>
+        </div>
+        <div class="in">
+            <h2 align="center" style="padding-top: 30px;">Instructions</h2>
+            <p>Step1: Select Your Birth Date</p><br>
+            <p>Step2: Verify whether you have &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entered it correctly </p><br>
+            <p>Step 3: Click the "Calculate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Age" button</p><br>
+            <p>Step 4: If You want to reset the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selected age click on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the "Reset Date" button </p><br>
+            <p>Step 5: See Your Results!!</p>
+        </div>
+    </div>
+    <div class="lion">
+    <div class="calculator">
+        <h2>Age Calculator</h2>
+        <span>Enter your BirthDate:</span>
+        <input type="date" id="birthdate">
+        <br><br><button onclick="calculateAge()">Calculate Age</button>
+        <button><a href="about.html">Reset Date</a></button>
+    </div>
+    <div id="result">
+        <span>Your Age:</span><br>
+        <span>Years:</span><br>
+        <span>Months: </span><br>
+        <span>Days: </span><br>
+        <span>Hours: </span><br>
+        <span>Minutes: </span><br>
+        <span>Seconds: </span><br>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Platypi:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+body{
+    background:#080E19 ;
+}
+.nav{
+    float:right;
+    display: flex;
+    justify-content: center; 
+    gap: 80px;
+    height: 40px;
+    width: 520px;
+    align-items: center;
+    margin-left: 0px;
+    margin: 10px auto; 
+    position: sticky;
+    font-size: 70px;
+    margin-top: 35px;
+    font-family: "Jersey 10", sans-serif;
+    color: blue;
+}
+.nav a{
+    color: blue;
+}
+
+.iki
+{
+    float: left;
+    height: 40px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 50%;
+    
+}
+.iki img{
+    height: 120px;
+    
+}
+.ji{
+    width: 1520px;
+    height: 140px;
+}
+.text{
+    float: left;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image:url(https://img.itch.zone/aW1nLzQ5MDI4NzMucG5n/original/yqxI6o.png);
+    width: 1700px;
+    height: 570px;
+    
+    margin-top: 0px;
+    
+}
+.rock{
+    float: right;
+} 
+.text a{
+    text-decoration: none;
+    color: aliceblue;
+}  
+.go{
+    width: 230px;
+    height: 80px;
+    color: white;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    box-shadow: 0px 0px 20px  #BC7FCD;
+    border: 0px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-left: 4px;
+    background-color: transparent;
+}
+.calculator {
+    margin-top: 70px;
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px #6E43A8;
+    text-align: center;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+input {
+    width: 150px;
+    height: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    width: 160px;
+    font-weight: 700;
+    font-size: 17px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 15px;
+    background-color: #080E19 ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px #6E43A8;
+    font-size: 30px;
+    margin-left: 50px;
+}
+input[type=date]
+{
+    width: 140px;
+    margin: auto;
+    outline:none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    border-radius: 2px;
+    color: #1073d0;
+    font-size: 17px;
+    padding: 12px;
+}
+input[type=date]:focus{
+    background: #fff;
+    border: 2px solid orange;
+
+
+}
+lion{
+    float:right;
+}
+.tiger{
+    float: left;
+    width: 1000px;
+    height: 700px;
+    color: aliceblue;
+}
+.in{
+    float: right;
+    height: 600px;
+    width: 400px;
+    background: #6E43A8;
+    margin-top: 70px;
+    margin-left: 80px;
+    font-size: 23px;
+    border-radius: 20px;
+}
